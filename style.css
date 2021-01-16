@@ -13,6 +13,11 @@ p {
   text-align: center;
 }
 
+input[type="image"]:hover,input[type="image"]:focus{
+  filter: contrast(200%);
+  outline: none;
+}
+
 
 .maintext {
   color: #f4abc4;
@@ -26,17 +31,26 @@ p {
 align-items: center;
 }
 
-.power{
-  margin: 150px auto 20px;
-  width: 7%;
+.bx
+{
+    margin:150px auto auto;
 }
-power:hover {
-  color: orange;
+
+.pressed{
+  animation-name: ops;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
 }
+
 
 @font-face {
   font-family: 'Roboto';
   src: url(Roboto-Thin.ttf) format('truetype');
   font-style: normal;
   font-weight: 100;
+}
+
+@keyframes ops {
+  0%   { opacity: 0; }
+  100% { opacity: 1; }
 }
