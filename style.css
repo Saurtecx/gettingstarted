@@ -1,0 +1,42 @@
+html {
+    min-height: 100%;
+}
+
+body {
+  background-color: #333456;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+p {
+  text-align: center;
+}
+
+
+.maintext {
+  color: #f4abc4;
+  text-align: center;
+  margin: 20px auto auto;
+  font-family: 'Roboto';
+  font-weight: 100;
+
+}
+.maindiv {
+align-items: center;
+}
+
+.power{
+  margin: 150px auto 20px;
+  width: 7%;
+}
+power:hover {
+  color: orange;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url(Roboto-Thin.ttf) format('truetype');
+  font-style: normal;
+  font-weight: 100;
+}
