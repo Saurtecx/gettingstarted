@@ -13,7 +13,7 @@ p {
   text-align: center;
 }
 
-input[type="image"]:hover,input[type="image"]:focus{
+.bx:hover,.bx:focus{
   filter: contrast(200%);
   outline: none;
 }
